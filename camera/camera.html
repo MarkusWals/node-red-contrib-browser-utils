@@ -23,7 +23,9 @@
     <p>Usage:</p>
     <ol>
         <li>Add the camera node to your flow</li>
-        <li>Click the <code>button</code> capture an image from the webcam</li>
+        <li>Click the <code>button</code></li>
+        <li>or send <code>true</code> or <code>false</code></li>
+		<li>to capture an image from the webcam</li>
     </ol>
     <p>The <code>jpg</code> image is sent as the <code>msg.payload</code> object</p>
     <p>Supported browsers</p>
@@ -121,7 +123,7 @@
                 name: {value: ''}
             },
             color: 'rgb(215, 201, 194)',
-            inputs: 0,
+            inputs: 1,
             outputs: 1,
             icon: 'camera.png',
             paletteLabel: 'camera',
